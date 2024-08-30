@@ -1,0 +1,51 @@
+print("METHODS ON TUPLE")
+print("\n \n \n")
+t1=(1,2,3,7,7,8)
+t2=(2,3,4,18,45)
+print("INDEX()")
+print(t1.index(7))
+print("\n")
+print("LENGTH()")
+print(len(t1))
+print("\n")
+print("COUNT()")
+print(t1.count(7))
+print("\n")
+print("COPY")
+t3=t2
+print(t3)
+print("\n")
+print("ZIP")
+t4=tuple(zip(t1,t2))
+print(t4)
+
+
+
+
+#OUTPUT
+
+METHODS ON TUPLE
+
+ 
+ 
+
+INDEX()
+3
+
+
+LENGTH()
+6
+
+
+COUNT()
+2
+
+
+COPY
+(2, 3, 4, 18, 45)
+
+
+ZIP
+((1, 2), (2, 3), (3, 4), (7, 18), (7, 45))
+
+=== Code Execution Successful ===
