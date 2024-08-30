@@ -1,0 +1,60 @@
+print("OPERATIONS ON TUPLE")
+print("\n \n \n")
+print("CONCATINATION")
+t1=(1,2,3,7,8)
+t2=(2,3,4,18,45)
+print(t1+t2)
+print("\n")
+print("REPETITION")
+print(t1*3)
+print("\n")
+print("INDEX")
+print(t1[2])
+print("\n")
+print("ITERATION")
+for i in (7,45,18):
+    print(i)
+print("\n")
+print("SLICING")
+print(t1[1:-1])
+print(t2[1:-1:2])
+print(t1[1:4])
+print(t2[::-1])
+
+
+
+
+
+
+#OUTPUT
+
+OPERATIONS ON TUPLE
+
+ 
+ 
+
+CONCATINATION
+(1, 2, 3, 7, 8, 2, 3, 4, 18, 45)
+
+
+REPETITION
+(1, 2, 3, 7, 8, 1, 2, 3, 7, 8, 1, 2, 3, 7, 8)
+
+
+INDEX
+3
+
+
+ITERATION
+7
+45
+18
+
+
+SLICING
+(2, 3, 7)
+(3, 18)
+(2, 3, 7)
+(45, 18, 4, 3, 2)
+
+=== Code Execution Successful ===
